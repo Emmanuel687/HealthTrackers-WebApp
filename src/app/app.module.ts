@@ -14,6 +14,8 @@ import { LoginMoringaComponent } from './login/login-moringa/login-moringa.compo
 import { LoginMoringaAdminComponent } from './login/login-moringa-admin/login-moringa-admin.component';
 import { LoginKemriAdminComponent } from './login/login-kemri-admin/login-kemri-admin.component';
 import { LoginDriverComponent } from './login/login-driver/login-driver.component';
+import {MatToolbarModule} from '@angular/material/toolbar';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -32,7 +34,10 @@ import { LoginDriverComponent } from './login/login-driver/login-driver.componen
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatToolbarModule,
+    BrowserAnimationsModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
