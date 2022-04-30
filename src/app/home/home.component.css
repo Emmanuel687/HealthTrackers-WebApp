@@ -1,0 +1,17 @@
+  
+#home {
+ 
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    background-image: url(https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bGFib3JhdG9yeXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-repeat: no-repeat;
+    background-size: 1400px 800px;
+  }
+  
+  #home .content p {
+    font-size: 250%;
+    font-family: "lemonada", sans-serif;
+    font-weight: bolder;
+    text-shadow: 0.1rem 0.1rem 0.3rem #333;
+    color: white;
+    text-align: center;
+  }

@@ -16,6 +16,9 @@ import { LoginKemriAdminComponent } from './login/login-kemri-admin/login-kemri-
 import { LoginDriverComponent } from './login/login-driver/login-driver.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NavbarComponent } from './navbar/navbar.component';
+import { AboutComponent } from './about/about.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +33,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     LoginMoringaComponent,
     LoginMoringaAdminComponent,
     LoginKemriAdminComponent,
-    LoginDriverComponent
+    LoginDriverComponent,
+    NavbarComponent,
+    AboutComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
