@@ -1,17 +1,14 @@
-<div fxLayoutAlign="center center" fxFlexFill class="main-div">
-    <mat-card fxFlex="25">
-        <mat-toolbar color="primary">Moringa-Admin Login</mat-toolbar>
-        <form fxLayoutAlign="stretch" fxLayout="column" class="login-form">
-            <mat-form-field>
-              <input matInput placeholder="Username">
-            </mat-form-field>
-
-            <mat-form-field>
-                <input matInput type = "password" placeholder="Password">
-            </mat-form-field>
-            <button mat-raised-button type="submit">Login</button>
-              
-          
-          </form>
-    </mat-card>
-</div>
+<div class="center">
+  <h1>Moringa-Admin Login</h1>
+  <form action="post">
+    <div class="txt_field">
+      <input type="text" required>
+      <label>Username</label>
+    </div>
+    <div class="txt_field">
+     <input type="password" required>
+     <label>Password</label>
+   </div>
+   <input type="submit" value="Login">
+  </form>
+ </div>
