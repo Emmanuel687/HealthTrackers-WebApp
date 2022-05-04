@@ -7,6 +7,7 @@ import { LoginMoringaComponent } from './login/login-moringa/login-moringa.compo
 import { ComponentFixtureAutoDetect } from '@angular/core/testing';
 import { LoginMoringaAdminComponent } from './login/login-moringa-admin/login-moringa-admin.component';
 import { LoginKemriAdminComponent } from './login/login-kemri-admin/login-kemri-admin.component';
+import { LoginKemriComponent } from './login/login-kemri/login-kemri.component';
 
 const routes: Routes = [
   {path:"home",component:HomeComponent},
@@ -14,7 +15,8 @@ const routes: Routes = [
   {path:"driver",component:LoginDriverComponent},
   {path:"moringaAdmin",component:LoginMoringaAdminComponent},
   {path:"kemriAdmin",component:LoginKemriAdminComponent},
-  
+  {path:"moringaStuff",component:LoginMoringaComponent},
+  {path:"kemriStuff",component:LoginKemriComponent}
 
 
 
