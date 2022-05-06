@@ -24,6 +24,7 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
 import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
+import { VisualizeComponent } from './visualization/visualize/visualize.component';
 
 
 
@@ -45,7 +46,8 @@ import {MatCardModule} from '@angular/material/card';
     LoginDriverComponent,
     NavbarComponent,
     AboutComponent,
-    HomeComponent
+    HomeComponent,
+    VisualizeComponent
   ],
   imports: [
     BrowserModule,

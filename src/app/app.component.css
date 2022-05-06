@@ -21,7 +21,7 @@
 .menu-bar ul {
   list-style: none;
   display: flex;
-  width: 70%;
+  width: 50%;
 }
 
 .menu-bar ul li {
